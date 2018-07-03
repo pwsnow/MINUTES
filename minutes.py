@@ -1,9 +1,9 @@
 import random
-from easygui import *
-import sqlite3
-import matplotlib.pyplot as plt; plt.rcdefaults()
-import numpy as np
-import matplotlib.pyplot as plt
+#from easygui import *
+#import sqlite3
+#import matplotlib.pyplot as plt; plt.rcdefaults()
+#import numpy as np
+#import matplotlib.pyplot as plt
 import time
 
 
@@ -18,9 +18,9 @@ UPDATED_NUM = {}
 ABSENT = {}
 REST_GROUP = {}
 WEEKS_SINCE_MINUTES = {'Peter': 2, 'Chi': 1, 'Tijana': 3, 'Anne': 1, 'Sean': 4,'Nayereh': 5,'Elliott': 8, 'Tom': 12, 'Lynsey': 25, 'Rui': 28,'Steve': 32, 'Ali': 99,'Fjodors': 99}
-db = sqlite3.connect('DB.db')
-c = db.cursor()
-db.text_factory = str
+#db = sqlite3.connect('DB.db')
+#c = db.cursor()
+#db.text_factory = str
 MEMBERS = {}
 
 
@@ -30,7 +30,7 @@ def AVG_MINUTE_SORTER_OLD():
             POTENTIAL_MINUTERS[n] = v  # Add new entry
         else:
             REST_GROUP[n] = v
-    print POTENTIAL_MINUTERS
+    #print POTENTIAL_MINUTERS
 
 def AVG_MINUTE_SORTER():
     #print AVG_NUM
@@ -81,7 +81,7 @@ def calAVG():
     #print totalMin
     global AVG_NUM
     AVG_NUM = avg(totalMin)
-    print AVG_NUM
+    #print AVG_NUM
     #print np.mean(totalMin)
     #print sum(totalMin) / float(len(totalMin))
     #print reduce(lambda x, y: x + y, totalMin) / len(totalMin)
