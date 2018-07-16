@@ -7,7 +7,7 @@ import random
 import time
 
 
-TOTAL = {'Peter': 0, 'Chi': 0, 'Yazi': 0, 'Tijana': 0, 'Anne': 0, 'Sean': 0,'Nayereh': 0,'Elliott': 0, 'Tom': 0, 'Lynsey': 0, 'Rui': 0,'Steve': 0, 'Ali': 0,'Fjodors': 0, 'Henry': 0, "Michael": 0,  "Nadia": 0, "Sarah": 0, "Kylie": 0, "Reni": 0}
+TOTAL = {'Peter': 0, 'Chi': 0, 'Yazi': 0, 'Tijana': 0, 'Anne': 0, 'Sean': 0,'Nayereh': 0,'Elliott': 0, 'Tom': 0, 'Lynsey': 0, 'Rui': 0,'Steve': 0, 'Ali': 0,'Stefan': 0, 'Henry': 0, "Bonolo": 0,  "Nadia": 0, "Sarah": 0, "Kylie": 0, "Reni": 0}
 CURRENT_NUM = {}
 AVG_NUM = 4
 NUM_TO_REACH_AVG = 0
